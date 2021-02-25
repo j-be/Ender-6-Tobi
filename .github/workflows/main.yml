@@ -51,4 +51,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: firmware.bin
-          path: "marlin/Marlin/.pio/build/STM32F103RET6_creality/firmware.bin"
+          path: "marlin/Marlin/.pio/build/STM32F103RET6_creality/firmware-*.bin"
