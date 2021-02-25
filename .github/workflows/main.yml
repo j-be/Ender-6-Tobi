@@ -40,8 +40,8 @@ jobs:
           path: marlin/Marlin
 
       # Copy over configs
-      - run: cp "marlin/Configurations/config/examples/Creality/Ender-6/BigTreeTech SKR Mini E3 2.0/Configuration.h" "marlin/Marlin/Marlin/"
-      - run: cp "marlin/Configurations/config/examples/Creality/Ender-6/BigTreeTech SKR Mini E3 2.0/Configuration_adv.h" "marlin/Marlin/Marlin/"
+      - run: cp "marlin/Configurations/config/examples/Creality/Ender-6/Configuration.h" "marlin/Marlin/Marlin/"
+      - run: cp "marlin/Configurations/config/examples/Creality/Ender-6/Configuration_adv.h" "marlin/Marlin/Marlin/"
 
       # Build
       - name: Run PlatformIO
