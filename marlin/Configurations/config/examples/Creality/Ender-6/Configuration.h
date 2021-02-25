@@ -22,7 +22,7 @@
 #pragma once
 
 // Enable this option for BLTouch support
-//#define ENABLE_BLTOUCH_PROBE
+#define ENABLE_BLTOUCH_PROBE
 
 /**
  * Configuration.h
@@ -1053,7 +1053,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -20.7, -7, -2.5 }
+#define NOZZLE_TO_PROBE_OFFSET { -43, -6, -1.88 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
